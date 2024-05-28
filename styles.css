@@ -82,7 +82,7 @@ ul {
   text-align: center;
   margin: 10px;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 
 .gallery .image-placeholder {

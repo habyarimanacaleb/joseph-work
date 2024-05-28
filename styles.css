@@ -69,9 +69,11 @@ ul {
 }
 
 .gallery {
-  display: grid;
+  /* display: grid;
+  
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  gap: 10px;
+  gap: 10px; */
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }

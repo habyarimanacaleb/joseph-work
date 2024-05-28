@@ -1,0 +1,16 @@
+mkdir joseph-work
+cd joseph-work
+code . // create files your want to add on your repo this line it will be send into vs code editor
+
+//continue in your terminal by the following codes to commit , add and push your files into github repository
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/habyarimanacaleb/joseph-work.git
+
+//after that push your files
+
+git push -u origin main
+
+//https://github.com/habyarimanacaleb/joseph-work.git , this my git hub repo i want to work with

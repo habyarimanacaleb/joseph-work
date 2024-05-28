@@ -81,6 +81,8 @@ ul {
 .gallery .image-container {
   text-align: center;
   margin: 10px;
+  display: flex;
+  flex-direction:row;
 }
 
 .gallery .image-placeholder {

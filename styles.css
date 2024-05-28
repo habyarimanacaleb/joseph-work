@@ -70,7 +70,7 @@ ul {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 10px;
   justify-content: space-around;
   flex-wrap: wrap;

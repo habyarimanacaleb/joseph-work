@@ -92,7 +92,7 @@ ul {
   color: #777;
   font-size: 14px;
 }
-#gallery button {
+#gallery .button {
   padding: 10px;
   margin-top: 20px;
   border: none;

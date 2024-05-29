@@ -1,0 +1,22 @@
+.body {
+  font-size: 50px;
+  margin: 50px;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  background-color: aqua;
+  font-family: "Courier New", Courier, monospace;
+  border-top-left-radius: 20% 50%;
+  border-bottom-left-radius: 20% 50%;
+  animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
